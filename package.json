@@ -31,7 +31,7 @@
     "test:prepare": "scripts/prepareTests.bash",
     "build:link": "yarn build && cd build && yarn link",
     "build:watch": "yarn build && tsc --watch",
-    "build": "scripts/build.bash"
+    "build": "sh ./scripts/build.bash"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.8",
